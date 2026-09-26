@@ -1,0 +1,202 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local _2016 = Instance.new("TextButton")
+local _2015 = Instance.new("TextButton")
+local UIListLayout = Instance.new("UIListLayout")
+local _2014 = Instance.new("TextButton")
+local _2013 = Instance.new("TextButton")
+local _2012 = Instance.new("TextButton")
+local _2016CoreScript = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = game.StarterGui.ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.350978136, 0, 0.331179321, 0)
+Frame.Size = UDim2.new(0, 258, 0, 305)
+Frame.Active = true
+Frame.Draggable = true
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+ScrollingFrame.BackgroundTransparency = 0.600
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.Position = UDim2.new(0.0348837227, 0, 0.127868846, 0)
+ScrollingFrame.Size = UDim2.new(0, 242, 0, 257)
+
+_2016.Name = "2016"
+_2016.Parent = ScrollingFrame
+_2016.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+_2016.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2016.Position = UDim2.new(0.0495867766, 0, 0, 0)
+_2016.Size = UDim2.new(0, 216, 0, 50)
+_2016.Font = Enum.Font.SourceSans
+_2016.Text = "2016 (default)"
+_2016.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2016.TextSize = 14.000
+_2016.MouseButton1Click:connect(function()
+	getgenv().LegacySettings = ({
+		Year = 2016, -- only 2012 to 2016 allowed (if unavailable, it will be set to 2016 by default)
+		OldGraphics = true, -- changes graphics to be more like the 2016 graphics
+		HideDisplayName = true, -- changes other users nametags to show their username instead of display name
+		SafeChat = false, -- adds the safechat button, only works on 2012, 2013 and 2014
+		OldConsole = false, -- adds the old developer console back
+		OldBubbleChat = true, -- makes the bubble chat style like the 2016 one
+	})
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeku/legacy/refs/heads/main/Source.luau"))()
+end)
+
+_2015.Name = "2015"
+_2015.Parent = ScrollingFrame
+_2015.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+_2015.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2015.Position = UDim2.new(0.0495867766, 0, 0, 0)
+_2015.Size = UDim2.new(0, 216, 0, 50)
+_2015.Font = Enum.Font.SourceSans
+_2015.Text = "2015"
+_2015.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2015.TextSize = 14.000
+_2015.MouseButton1Click:connect(function()
+	getgenv().LegacySettings = ({
+		Year = 2015, -- only 2012 to 2016 allowed (if unavailable, it will be set to 2016 by default)
+		OldGraphics = true, -- changes graphics to be more like the 2016 graphics
+		HideDisplayName = true, -- changes other users nametags to show their username instead of display name
+		SafeChat = false, -- adds the safechat button, only works on 2012, 2013 and 2014
+		OldConsole = false, -- adds the old developer console back
+		OldBubbleChat = false, -- makes the bubble chat style like the 2016 one
+	})
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeku/legacy/refs/heads/main/Source.luau"))()
+end)
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+_2014.Name = "2014"
+_2014.Parent = ScrollingFrame
+_2014.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+_2014.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2014.Position = UDim2.new(0.0495867766, 0, 0, 0)
+_2014.Size = UDim2.new(0, 216, 0, 50)
+_2014.Font = Enum.Font.SourceSans
+_2014.Text = "2014"
+_2014.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2014.TextSize = 14.000
+_2014.MouseButton1Click:connect(function()
+	getgenv().LegacySettings = ({
+		Year = 2014, -- only 2012 to 2016 allowed (if unavailable, it will be set to 2016 by default)
+		OldGraphics = true, -- changes graphics to be more like the 2016 graphics
+		HideDisplayName = true, -- changes other users nametags to show their username instead of display name
+		SafeChat = false, -- adds the safechat button, only works on 2012, 2013 and 2014
+		OldConsole = true, -- adds the old developer console back
+		OldBubbleChat = false, -- makes the bubble chat style like the 2016 one
+	})
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeku/legacy/refs/heads/main/Source.luau"))()
+end)
+
+_2013.Name = "2013"
+_2013.Parent = ScrollingFrame
+_2013.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+_2013.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2013.Position = UDim2.new(0.0495867766, 0, 0, 0)
+_2013.Size = UDim2.new(0, 216, 0, 50)
+_2013.Font = Enum.Font.SourceSans
+_2013.Text = "2013"
+_2013.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2013.TextSize = 14.000
+_2013.MouseButton1Click:connect(function()
+	getgenv().LegacySettings = ({
+		Year = 2013, -- only 2012 to 2016 allowed (if unavailable, it will be set to 2016 by default)
+		OldGraphics = true, -- changes graphics to be more like the 2016 graphics
+		HideDisplayName = true, -- changes other users nametags to show their username instead of display name
+		SafeChat = true, -- adds the safechat button, only works on 2012, 2013 and 2014
+		OldConsole = true, -- adds the old developer console back
+		OldBubbleChat = false, -- makes the bubble chat style like the 2016 one
+	})
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeku/legacy/refs/heads/main/Source.luau"))()
+end)
+
+_2012.Name = "2012"
+_2012.Parent = ScrollingFrame
+_2012.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+_2012.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2012.Position = UDim2.new(0.0495867766, 0, 0, 0)
+_2012.Size = UDim2.new(0, 216, 0, 50)
+_2012.Font = Enum.Font.SourceSans
+_2012.Text = "2012"
+_2012.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2012.TextSize = 14.000
+_2012.MouseButton1Click:connect(function()
+	getgenv().LegacySettings = ({
+		Year = 2012, -- only 2012 to 2016 allowed (if unavailable, it will be set to 2016 by default)
+		OldGraphics = true, -- changes graphics to be more like the 2016 graphics
+		HideDisplayName = true, -- changes other users nametags to show their username instead of display name
+		SafeChat = true, -- adds the safechat button, only works on 2012, 2013 and 2014
+		OldConsole = true, -- adds the old developer console back
+		OldBubbleChat = false, -- makes the bubble chat style like the 2016 one
+	})
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yeku/legacy/refs/heads/main/Source.luau"))()
+end)
+
+_2016CoreScript.Name = "2016CoreScript"
+_2016CoreScript.Parent = ScrollingFrame
+_2016CoreScript.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+_2016CoreScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2016CoreScript.Position = UDim2.new(0.0495867766, 0, 0, 0)
+_2016CoreScript.Size = UDim2.new(0, 216, 0, 50)
+_2016CoreScript.Font = Enum.Font.SourceSans
+_2016CoreScript.Text = "2016M (corescripts)"
+_2016CoreScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2016CoreScript.TextSize = 14.000
+_2016.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/windowsuser688/OldRobloxify/refs/heads/main/Source.lua"))()
+end)
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(165, 21, 23)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.Position = UDim2.new(0.872093022, 0, 0.0291517917, 0)
+Close.Size = UDim2.new(0, 24, 0, 21)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 14.000
+Close.TextStrokeTransparency = 0.000
+Close.MouseButton1Click:connect(function()
+	Frame.Visible = false
+end)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 224, 0, 39)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Legacy (Old ROBLOX Ui) Hook"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+-- Scripts:
+
+-- Close.LocalScript is disabled.
