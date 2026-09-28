@@ -1,32 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Opening Stream...</title>
-  <style>
-    body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #111; color: #fff; }
-    a { color: #40a9ff; font-weight: bold; }
-  </style>
-</head>
-<body>
-  <h2>Launching IPTV Stream...</h2>
-  <p>If your player doesn't open automatically, <a id="downloadLink" href="#">click here to download the playlist file</a>.</p>
-
-  <script>
-    // REPLACE THIS WITH YOUR HTTP STREAM LINK
-    const httpStreamUrl = "http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/263872.ts";
-
-    // Create a downloadable .m3u playlist file dynamically
-    const playlistContent = "#EXTM3U\n#EXTINF:-1, Live Stream\n" + httpStreamUrl;
-    const blob = new Blob([playlistContent], { type: "audio/x-mpegurl" });
-    const url = URL.createObjectURL(blob);
-
-    const link = document.getElementById("downloadLink");
-    link.href = url;
-    link.download = "stream.m3u";
-
-    // Automatically trigger the download/launch
-    window.location.href = url;
-  </script>
-</body>
-</html>
+<meta charset="utf-8">
+<title>Redirecting to https://example.com/</title>
+<meta http-equiv="refresh" content="0; URL=https://example.com/">
+<link rel="canonical" href="https://example.com/">
