@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script>
-      window.location.href = "https://slatrock.net:80/live/191950269557437/MBeEz99Ic6/263872.ts";
-    </script>
-    <meta http-equiv="refresh" content="0; url=https://slatrock.net:80/live/191950269557437/MBeEz99Ic6/263872.ts">
-  </head>
-  <body>
-    <p>Redirecting... If not, <a href="https://www.google.com">click here</a>.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Stream</title>
+  <!-- Load HLS.js library to handle IPTV streams -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <style>
+    body {
+      background-color: #000;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    video {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <video id="video" controls autoplay muted></video>
+
+  <script>
+    // REPLACE THIS WITH YOUR ACTUAL IPTV / M3U8 STREAM LINK
+    const streamUrl = "http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/263872.ts";
+
+    const video = document.getElementById('video');
+
+    if (Hls.isSupported()) {
+      const hls = new Hls();
+      hls.loadSource(streamUrl);
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MANIFEST_PARSED, function() {
+        video.play();
+      });
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      // Native Safari support
+      video.src = streamUrl;
+      video.addEventListener('loadedmetadata', function() {
+        video.play();
+      });
+    }
+  </script>
+</body>
 </html>
