@@ -2,49 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Live Stream</title>
-  <!-- Load HLS.js library to handle IPTV streams -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <title>Opening Stream...</title>
   <style>
-    body {
-      background-color: #000;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    video {
-      width: 100%;
-      max-width: 900px;
-      height: auto;
-    }
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #111; color: #fff; }
+    a { color: #40a9ff; font-weight: bold; }
   </style>
 </head>
 <body>
-
-  <video id="video" controls autoplay muted></video>
+  <h2>Launching IPTV Stream...</h2>
+  <p>If your player doesn't open automatically, <a id="downloadLink" href="#">click here to download the playlist file</a>.</p>
 
   <script>
-    // REPLACE THIS WITH YOUR ACTUAL IPTV / M3U8 STREAM LINK
-    const streamUrl = "https://slatrock.net:80/live/191950269557437/MBeEz99Ic6/263872.ts";
+    // REPLACE THIS WITH YOUR HTTP STREAM LINK
+    const httpStreamUrl = "http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/263872.ts";
 
-    const video = document.getElementById('video');
+    // Create a downloadable .m3u playlist file dynamically
+    const playlistContent = "#EXTM3U\n#EXTINF:-1, Live Stream\n" + httpStreamUrl;
+    const blob = new Blob([playlistContent], { type: "audio/x-mpegurl" });
+    const url = URL.createObjectURL(blob);
 
-    if (Hls.isSupported()) {
-      const hls = new Hls();
-      hls.loadSource(streamUrl);
-      hls.attachMedia(video);
-      hls.on(Hls.Events.MANIFEST_PARSED, function() {
-        video.play();
-      });
-    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      // Native Safari support
-      video.src = streamUrl;
-      video.addEventListener('loadedmetadata', function() {
-        video.play();
-      });
-    }
+    const link = document.getElementById("downloadLink");
+    link.href = url;
+    link.download = "stream.m3u";
+
+    // Automatically trigger the download/launch
+    window.location.href = url;
   </script>
 </body>
 </html>
