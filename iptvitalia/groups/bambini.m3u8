@@ -1,5 +1,5 @@
 #EXTM3U
-#PLAYLIST:BAMBINI(E)
+#PLAYLIST:BAMBINI(E)2
 # Built with the CODECS.COM Playlist Builder
 
 #EXTINF:-1 tvg-id="Nickelodeon.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/NICKELODEON.png" group-title="Bambini / Bambine",Nickelodeon Italia
@@ -22,4 +22,11 @@ http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68583.ts
 
 #EXTINF:-1 tvg-id="RaiGulp.it@HD" tvg-logo="https://go4.pw/EUROPE/ITALY/raigulp.png" group-title="Bambini / Bambine",Rai Gulp
 http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68584.ts
+
+#EXTINF:-1 tvg-id="Boing.it@HD" tvg-logo="https://go4.pw/EUROPE/ITALY/BOING-1.png" group-title="Bambini / Bambine",Boing HD
+https://mynettv.duckdns.org/stream/channelid/524668153?profile=pass
+
+#EXTINF:-1 tvg-id="BoingPlus.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/BOING-1.png" group-title="Bambini / Bambine",Boing Plus
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/779195.ts
+
 
