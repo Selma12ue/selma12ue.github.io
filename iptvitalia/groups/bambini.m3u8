@@ -1,0 +1,25 @@
+#EXTM3U
+#PLAYLIST:BAMBINI(E)
+# Built with the CODECS.COM Playlist Builder
+
+#EXTINF:-1 tvg-id="Nickelodeon.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/NICKELODEON.png" group-title="Bambini / Bambine",Nickelodeon Italia
+https://zg9mhld.s.gy/HD-NICK-IT.ts
+
+#EXTINF:-1 tvg-id="CartoonNetwork.it@HD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONNETWORKFHD.png" group-title="Bambini / Bambine",Cartoon Network Italia
+https://zg9mhld.s.gy/HD-CARTOON-IT.ts
+
+#EXTINF:-1 tvg-id="Super.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/SUPER-1.png" group-title="Bambini / Bambine",Super!
+https://mynettv.duckdns.org/stream/channelid/1855654569?profile=pass
+
+#EXTINF:-1 tvg-id="Super.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/SUPER-1.png" group-title="Bambini / Bambine",Super! (2)
+https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Cartoonito.it@HD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONITO_FHD.png" group-title="Bambini / Bambine",Cartoonito HD
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68586.ts
+
+#EXTINF:-1 tvg-id="RaiYoyo.it@HD" tvg-logo="https://go4.pw/EUROPE/ITALY/raiyoyo.png" group-title="Bambini / Bambine",Rai Yoyo
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68583.ts
+
+#EXTINF:-1 tvg-id="RaiGulp.it@HD" tvg-logo="https://go4.pw/EUROPE/ITALY/raigulp.png" group-title="Bambini / Bambine",Rai Gulp
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68584.ts
+
