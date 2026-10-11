@@ -1,0 +1,9 @@
+#EXTM3U
+#PLAYLIST:my-playlist
+# Built with the CODECS.COM Playlist Builder
+
+#EXTINF:-1 tvg-id="MTV.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/mtv-it.png" group-title="Paramount Canales",MTV
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6154.ts
+
+#EXTINF:-1 tvg-id="ComedyCentral.it@SD" tvg-logo="https://docdog.top/logo/countries/italy/comedycentral.png" group-title="Paramount Canales",Comedy Central
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/5990.ts
