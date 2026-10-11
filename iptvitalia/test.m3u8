@@ -1,0 +1,96 @@
+#EXTM3U
+#PLAYLIST:playlist
+# Built with the CODECS.COM Playlist Builder
+
+#EXTINF:-1 tvg-id="MTV.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/mtv-it.png" group-title="Paramount Canales",MTV
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6154.ts
+
+#EXTINF:-1 tvg-id="ComedyCentral.it@SD" tvg-logo="https://docdog.top/logo/countries/italy/comedycentral.png" group-title="Paramount Canales",Comedy Central
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/5990.ts
+
+#EXTINF:-1 tvg-id="Nickelodeon.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/NICKELODEON.png" group-title="Bambini / Bambine",Nickelodeon Italia
+http://31.43.191.125:8080/live/SVIP0196172748005224/41727979372887/135893.ts
+
+#EXTINF:-1 tvg-id="CartoonNetwork.it@HD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONNETWORKFHD.png" group-title="Bambini / Bambine",Cartoon Network Italia
+http://31.43.191.125:8080/live/SVIP0196172748005224/41727979372887/135881.ts
+
+#EXTINF:-1 tvg-id="Super.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/SUPER-1.png" group-title="Bambini / Bambine",Super!
+https://mynettv.duckdns.org/stream/channelid/1855654569?profile=pass
+
+#EXTINF:-1 tvg-id="Super.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/SUPER-1.png" group-title="Bambini / Bambine",Super! (2)
+https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Cartoonito.it@HD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONITO_FHD.png" group-title="Bambini / Bambine",Cartoonito HD
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68586.ts
+
+#EXTINF:-1 tvg-id="RaiYoyo.it@HD" tvg-logo="https://go4.pw/EUROPE/ITALY/raiyoyo.png" group-title="Bambini / Bambine",Rai Yoyo
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68583.ts
+
+#EXTINF:-1 tvg-id="RaiGulp.it@HD" tvg-logo="https://go4.pw/EUROPE/ITALY/raigulp.png" group-title="Bambini / Bambine",Rai Gulp
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68584.ts
+
+#EXTINF:-1 tvg-id="Boing.it@HD" tvg-logo="https://go4.pw/EUROPE/ITALY/BOING-1.png" group-title="Bambini / Bambine",Boing HD
+https://mynettv.duckdns.org/stream/channelid/524668153?profile=pass
+
+#EXTINF:-1 tvg-id="BoingPlus.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/BOING-1.png" group-title="Bambini / Bambine",Boing Plus
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/779195.ts
+
+#EXTINF:-1 tvg-id="BoingPlus.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/BOING-1.png" group-title="Bambini / Bambine",Boing Plus (2)
+https://mynettv.duckdns.org/stream/channelid/406104408?profile=pass
+
+#EXTINF:-1 tvg-id="Cartoonito.it@HD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONITO_FHD.png" group-title="Bambini / Bambine",Cartoonito (2)
+https://mynettv.duckdns.org/stream/channelid/1214242273?profile=pass
+
+#EXTINF:-1 tvg-id="Nickelodeon.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/NICKELODEON_1.png" group-title="Bambini / Bambine",Nickelodeon [STABLE]
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68601.ts
+
+#EXTINF:-1 tvg-id="CartoonNetwork.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONNETWORKFHD.png" group-title="Bambini / Bambine",CARTOON NETWORK [STABLE]
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68597.ts
+
+#EXTINF:-1 tvg-id="Boomerang.it@SD" tvg-logo="https://go4.pw/EUROPE/PORTUGALVIP/BOOMERANG.png" group-title="Bambini / Bambine",Boomerang
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68599.ts
+
+#EXTINF:-1 tvg-id="NickJr.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/NICKJUNIOR.png" group-title="Bambini / Bambine",Nick Jr. Italy
+http://102.129.186.182:81/nick/index.m3u8
+
+#EXTINF:-1 tvg-id="K2.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/K2.png" group-title="Bambini / Bambine",K2
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68588.ts
+
+#EXTINF:-1 tvg-id="Frisbee.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/ITALY/FRISBEE.png" group-title="Bambini / Bambine",Frisbee
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68589.ts
+
+#EXTINF:-1 tvg-id="Rai1.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-1-it.png" group-title="Rai Channels",Rai 1
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48986.ts
+
+#EXTINF:-1 tvg-id="Rai2.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-2-it.png" group-title="Rai Channels",Rai 2
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48987.ts
+
+#EXTINF:-1 tvg-id="Rai3.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai3.png" group-title="Rai Channels",Rai 3
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48988.ts
+
+#EXTINF:-1 tvg-id="Rai4.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-4-it.png" group-title="Rai Channels",Rai 4
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6273.ts
+
+#EXTINF:-1 tvg-id="Rai5.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai5.png" group-title="Rai Channels",Rai 5
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6274.ts
+
+#EXTINF:-1 tvg-id="Rai4K.it@SD" group-title="Rai Channels",Rai 4K
+http://31.43.191.125:8080/live/SVIP0196172748005224/41727979372887/135859.ts
+
+#EXTINF:-1 tvg-id="RaiMovie.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-movie-it.png" group-title="Rai Channels",Rai Movie
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6276.ts
+
+#EXTINF:-1 tvg-id="RaiPremium.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-premium-it.png" group-title="Rai Channels",Rai Premium
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6279.ts
+
+#EXTINF:-1 tvg-id="RaiNews24.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-news-24-it.png" group-title="Rai Channels",Rai News 24
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/95125.ts
+
+#EXTINF:-1 tvg-id="RaiStoria.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-storia-it.png" group-title="Rai Channels",Rai Storia
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48991.ts
+
+#EXTINF:-1 tvg-id="RaiSport.it@HD" group-title="Rai Channels",Rai Sport
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6282.ts
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2XRdgOdMhiNx5jTmZDvi4yUi8kb.jpg" group-title="Movies",A casa dei loud il film 2021
+http://slatrock.net:80/movie/191950269557437/MBeEz99Ic6/640210.mp4
