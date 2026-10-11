@@ -32,17 +32,23 @@ http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/779195.ts
 #EXTINF:-1 tvg-id="BoingPlus.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/BOING-1.png" group-title="Bambini / Bambine",Boing Plus (2)
 https://mynettv.duckdns.org/stream/channelid/406104408?profile=pass
 
-#EXTINF:-1 tvg-id="Cartoonito.it@HD" group-title="Bambini / Bambine",Cartoonito (2)
+#EXTINF:-1 tvg-id="Cartoonito.it@HD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONITO_FHD.png" group-title="Bambini / Bambine",Cartoonito (2)
 https://mynettv.duckdns.org/stream/channelid/1214242273?profile=pass
 
-#EXTINF:-1 tvg-id="Nickelodeon.it@SD" group-title="Bambini / Bambine",Nickelodeon [STABLE]
+#EXTINF:-1 tvg-id="Nickelodeon.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/NICKELODEON_1.png" group-title="Bambini / Bambine",Nickelodeon [STABLE]
 http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68601.ts
 
-#EXTINF:-1 tvg-id="CartoonNetwork.it@SD" group-title="Bambini / Bambine",CARTOON NETWORK [STABLE]
+#EXTINF:-1 tvg-id="CartoonNetwork.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/CARTOONNETWORKFHD.png" group-title="Bambini / Bambine",CARTOON NETWORK [STABLE]
 http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68597.ts
 
-#EXTINF:-1 tvg-id="Boomerang.it@SD" group-title="Bambini / Bambine",Boomerang
+#EXTINF:-1 tvg-id="Boomerang.it@SD" tvg-logo="https://go4.pw/EUROPE/PORTUGALVIP/BOOMERANG.png" group-title="Bambini / Bambine",Boomerang
 http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68599.ts
 
-#EXTINF:-1 tvg-id="NickJr.it@SD" group-title="Bambini / Bambine",Nick Jr. Italy
+#EXTINF:-1 tvg-id="NickJr.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/NICKJUNIOR.png" group-title="Bambini / Bambine",Nick Jr. Italy
 http://102.129.186.182:81/nick/index.m3u8
+
+#EXTINF:-1 tvg-id="K2.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/K2.png" group-title="Bambini / Bambine",K2
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68588.ts
+
+#EXTINF:-1 tvg-id="Frisbee.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/ITALY/FRISBEE.png" group-title="Bambini / Bambine",Frisbee
+http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68589.ts
