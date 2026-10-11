@@ -1,39 +1,12 @@
 #EXTM3U
-#PLAYLIST:RAICANAL
+#PLAYLIST:playlist
 # Built with the CODECS.COM Playlist Builder
 
-#EXTINF:-1 tvg-id="Rai1.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-1-it.png" group-title="Rai Channels",Rai 1
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48986.ts
+#EXTINF:-1 tvg-id="MTV.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/mtv-it.png" group-title="Paramount Canales",MTV
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6154.ts
 
-#EXTINF:-1 tvg-id="Rai2.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-2-it.png" group-title="Rai Channels",Rai 2
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48987.ts
-
-#EXTINF:-1 tvg-id="Rai3.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai3.png" group-title="Rai Channels",Rai 3
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48988.ts
-
-#EXTINF:-1 tvg-id="Rai4.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-4-it.png" group-title="Rai Channels",Rai 4
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6273.ts
-
-#EXTINF:-1 tvg-id="Rai5.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai5.png" group-title="Rai Channels",Rai 5
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6274.ts
-
-#EXTINF:-1 tvg-id="Rai4K.it@SD" group-title="Rai Channels",Rai 4K
-http://31.43.191.125:8080/live/SVIP0196172748005224/41727979372887/135859.ts
-
-#EXTINF:-1 tvg-id="RaiMovie.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-movie-it.png" group-title="Rai Channels",Rai Movie
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6276.ts
-
-#EXTINF:-1 tvg-id="RaiPremium.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-premium-it.png" group-title="Rai Channels",Rai Premium
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6279.ts
-
-#EXTINF:-1 tvg-id="RaiNews24.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-news-24-it.png" group-title="Rai Channels",Rai News 24
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/95125.ts
-
-#EXTINF:-1 tvg-id="RaiStoria.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-storia-it.png" group-title="Rai Channels",Rai Storia
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48991.ts
-
-#EXTINF:-1 tvg-id="RaiSport.it@HD" group-title="Rai Channels",Rai Sport
-http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6282.ts
+#EXTINF:-1 tvg-id="ComedyCentral.it@SD" tvg-logo="https://docdog.top/logo/countries/italy/comedycentral.png" group-title="Paramount Canales",Comedy Central
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/5990.ts
 
 #EXTINF:-1 tvg-id="Nickelodeon.it@SD" tvg-logo="https://go4.pw/EUROPE/FRANCE/NICKELODEON.png" group-title="Bambini / Bambine",Nickelodeon Italia
 https://zg9mhld.s.gy/HD-NICK-IT.ts
@@ -85,4 +58,37 @@ http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68588.ts
 
 #EXTINF:-1 tvg-id="Frisbee.it@SD" tvg-logo="https://go4.pw/EUROPE/ITALY/ITALY/FRISBEE.png" group-title="Bambini / Bambine",Frisbee
 http://slatrock.net:80/live/191950269557437/MBeEz99Ic6/68589.ts
+
+#EXTINF:-1 tvg-id="Rai1.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-1-it.png" group-title="Rai Channels",Rai 1
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48986.ts
+
+#EXTINF:-1 tvg-id="Rai2.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-2-it.png" group-title="Rai Channels",Rai 2
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48987.ts
+
+#EXTINF:-1 tvg-id="Rai3.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai3.png" group-title="Rai Channels",Rai 3
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48988.ts
+
+#EXTINF:-1 tvg-id="Rai4.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-4-it.png" group-title="Rai Channels",Rai 4
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6273.ts
+
+#EXTINF:-1 tvg-id="Rai5.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai5.png" group-title="Rai Channels",Rai 5
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6274.ts
+
+#EXTINF:-1 tvg-id="Rai4K.it@SD" group-title="Rai Channels",Rai 4K
+http://31.43.191.125:8080/live/SVIP0196172748005224/41727979372887/135859.ts
+
+#EXTINF:-1 tvg-id="RaiMovie.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-movie-it.png" group-title="Rai Channels",Rai Movie
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6276.ts
+
+#EXTINF:-1 tvg-id="RaiPremium.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-premium-it.png" group-title="Rai Channels",Rai Premium
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6279.ts
+
+#EXTINF:-1 tvg-id="RaiNews24.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-news-24-it.png" group-title="Rai Channels",Rai News 24
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/95125.ts
+
+#EXTINF:-1 tvg-id="RaiStoria.it@HD" tvg-logo="https://docdog.top/logo/countries/italy/rai-storia-it.png" group-title="Rai Channels",Rai Storia
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/48991.ts
+
+#EXTINF:-1 tvg-id="RaiSport.it@HD" group-title="Rai Channels",Rai Sport
+http://platinumxmedia.xyz/live/Limitless_discord/jKJvVnMHB6mhwrqBRwhCumNLJDUSAt/6282.ts
 
