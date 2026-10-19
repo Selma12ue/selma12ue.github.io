@@ -1,0 +1,17 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 444px;
+}
+
+.u-section-1 .u-rotation-parent-1 {
+  animation-timing-function: ease;
+  width: 255px;
+  height: 255px;
+  margin: 222px -38px -33px auto;
+}
+
+.u-section-1 .u-image-1 {
+  width: 187px;
+  height: 187px;
+  transform: translateX(-50%) translateY(-50%) rotate(30deg);
+  transform-origin: center center;
+}
